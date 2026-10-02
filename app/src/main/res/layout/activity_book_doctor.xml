@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF7F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📅 Book Doctor Appointment"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#087F8C"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtSelectedDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Doctor Name"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edtBookingPatient"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Patient Name"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment Date"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edtAppointmentDate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment Time"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edtAppointmentTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Time"
+            android:inputType="time"/>
+
+        <Button
+            android:id="@+id/btnBookAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="📅  Book Appointment"
+            android:textSize="17sp"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

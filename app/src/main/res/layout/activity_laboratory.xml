@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#EAF7F7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🧪 Laboratory Dashboard"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#087F8C"
+        android:gravity="center"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnLabProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏥  Lab Profile"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnTestBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅  Test Booking"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnTestList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🧪  Test List"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSampleCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🩸  Sample Collection"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnTestResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊  Test Results"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnUploadReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋  Upload Reports"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
